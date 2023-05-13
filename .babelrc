@@ -1,7 +1,6 @@
 {
   "presets": [
-    [
-      "@babel/preset-env",
+    ["@babel/preset-env",
       {
         "targets": {
           "node": "current"
@@ -11,6 +10,6 @@
     "@babel/preset-react"
   ],
   "plugins": [
-    "react-hot-laoder/babel"
+    "react-hot-loader/babel"
   ]
 }
